@@ -32,33 +32,6 @@ function createMarker({ lat, lng, number, marker }) {
   });
 }
 
-// async function getData({ keyword, nearBy, businessId }) {
-//   const options = {
-//     method: 'GET',
-//     url: 'https://local-rank-tracker.p.rapidapi.com/grid',
-//     params: {
-//       place_id: 'ChIJoejvAr3Mj4ARtHrbKxtAHXI',
-//       query: keyword,
-//       lat: '37.341759',
-//       lng: '-121.938314',
-//       grid_size: '5',
-//       radius: '1',
-//       zoom: '13'
-//     },
-//     headers: {
-//       'X-RapidAPI-Key': 'cb591c92demsh9ce0726c6e22684p1e6efcjsn6b412bd81878',
-//       'X-RapidAPI-Host': 'local-rank-tracker.p.rapidapi.com'
-//     }
-//   };
-//   try {
-//     const response = await axios.request(options);
-//     console.log(response);
-//     return response.data;
-//   } catch (error) {
-//     console.error(error);
-//   }
-// }
-
 function fetchData({ urlApi, query, placeId, lat, lng, grid, zoom }) {
   const url = `${urlApi}?place_id=${placeId}&query=${query}&lat=${lat}&lng=${lng}&grid_size=${grid}&radius=1&zoom=${zoom}`;
   const options = {
