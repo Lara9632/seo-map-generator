@@ -27,6 +27,12 @@ npm install
 ```
 ## Local Development
 
+- Inicialize tailwind css
+
+  ```
+  npx tailwindcss -i ./input.css -o ./output.css --watch
+  ```
+
 - To run the project in a local development environment, use the following command:
 
 ```
