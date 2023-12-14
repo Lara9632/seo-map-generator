@@ -39,9 +39,9 @@ npm install
 npm run dev
 ```
 - There are a test data that you can use:
-Place ID: ChIJ36Yr5QHLj4ARHV2SQlx_wvM
-Lat: 37.368708614860104
-Lng: -121.97221153753787
-Keyword: web design
-Grid: 7
-Zoom: 13
+Place ID: ChIJ36Yr5QHLj4ARHV2SQlx_wvM  
+Lat: 37.368708614860104  
+Lng: -121.97221153753787  
+Keyword: web design  
+Grid: 7  
+Zoom: 13  
